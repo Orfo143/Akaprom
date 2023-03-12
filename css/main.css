@@ -121,8 +121,10 @@ body{
 /* aside */
 .aside{
     min-width: 275px;
-    background-color: aqua;
-    height: 500px;
+    height: 100%;
+}
+.aside img{
+    border-radius: 6px;
 }
 .category{
     
@@ -137,4 +139,5 @@ body{
     width: 240px;
     height: 300px;
     background-color: rebeccapurple;
+    border-radius: 6px;
 }
