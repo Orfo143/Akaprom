@@ -163,6 +163,9 @@ body{
     position: relative;
     bottom:4px;
 }
+/* .social img{
+    width: 90%;
+} */
 .mail{
     text-align: end;
     margin-top: 5px;
@@ -522,12 +525,44 @@ nav ul{
     row-gap: 15px;
     padding: 40px 0 0;
 }
-.video-box{
+.video{
     position: relative;
     width: 400px;
     height: 300px;
+    border:1px solid #000000;
+    cursor: pointer;
 }
-.video-box iframe{
+.video:hover #background-play{
+    background-size: 18%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    
+    /* background: #919191; */
+}
+.background-1{
+    background: url(../img/home_page/video/video-background-1.webp) no-repeat center;
+    background-size: cover;
+}
+.background-2{
+    background: url(../img/home_page/video/video-background-2.webp) no-repeat center;
+    background-size: cover;
+}
+.background-3{
+    background: url(../img/home_page/video/video-background-31_result.webp) no-repeat center;
+    background-size: cover;
+}
+#background-play{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: url(../img/home_page/video/play-2.png) no-repeat center;
+}
+.video iframe{
     position: absolute;
     top: 0;
     left: 0;
