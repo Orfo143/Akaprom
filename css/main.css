@@ -442,8 +442,6 @@ nav ul{
     height: 80%;
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .category-title__wrapper{
     height: 20%;
@@ -458,7 +456,26 @@ nav ul{
 .category-title{
     text-align: center;
 }
-
+.sale--mod{
+    margin: 0 auto;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.sale--mod img{
+    padding-bottom: 10px;
+}
+.sale-date{
+    font-size: 12px;
+    font-weight: 600;
+    float: right;
+    padding-top: 15px;
+}
 /* advantages */
 
 .advantages{
