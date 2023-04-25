@@ -47,17 +47,22 @@ $('.slider__btn--next').click(function () {
 	owl.trigger('next.owl.carousel');
 });
 
-// Nav icon
-const navBtn = document.querySelector('.nav__toggle');
-const nav = document.querySelector('.nav')
-const menuIcon = document.querySelector('.menu-icon');
 
+// burger menu
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.mobile-menu__category');
 
-navBtn.onclick = function () {
-	nav.classList.toggle('nav--mobile')
-	menuIcon.classList.toggle('menu-icon--active');
-	document.body.classList.toggle('no-scroll');
-};
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
 
+let menuBtnRight = document.querySelector('.menu-btn--right');
+let menuRight = document.querySelector('.mobile-menu');
+
+menuBtnRight.addEventListener('click', function(){
+	menuBtnRight.classList.toggle('active');
+	menuRight.classList.toggle('active');
+})
 
 
