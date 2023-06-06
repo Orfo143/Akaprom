@@ -507,6 +507,29 @@ nav ul{
 .zapchasti img{
     width: 100px;
 }
+.telegram-baner{
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    height: 117px;
+    color: #2da2dc;
+    box-shadow: unset;
+}
+.telegram-baner img{
+    width: 272px;
+}
+.telegram-text{
+    position: absolute;
+    top: 11px;
+    left: 111px;
+}
+.telegram-blog{
+    position: absolute;
+    top: 45px;
+    left: 108px;
+    font-size: 16px;
+    color: #fbfdff;
+}
 .dogovor{
     display: block;
     height: 268px;
@@ -520,11 +543,15 @@ nav ul{
     padding-top: 5px;
 }
 .youtube-banner{
-    height: 200px;
+    height: 105px;
     background-color: red;
-    padding: 15px;
+    padding: 10px 15px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 800;
 }
 /* category */
 .category-aside-box{
@@ -1124,6 +1151,12 @@ nav ul{
         display: none;
     }
     .aside-left{
+        display: none;
+    }
+    .aside{
+        display: none;
+    }
+    .column-right{
         display: none;
     }
     .nav-desctop{
