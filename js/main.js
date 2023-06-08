@@ -1,4 +1,4 @@
-// video-toutube
+
 window.addEventListener('DOMContentLoaded', function (){
 var videos = document.querySelectorAll('.video');
 
