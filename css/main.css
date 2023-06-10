@@ -535,15 +535,10 @@ nav ul{
 }
 .dogovor{
     display: block;
-    height: 268px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
-    background-color: #c5d8e5;
-    padding: 5px;
-}
-.dogovor img{
-    padding-top: 5px;
+    background-color: #5b838f;
 }
 .youtube-banner{
     background-color: red;
