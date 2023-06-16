@@ -1,0 +1,104 @@
+.about-title{
+    padding: 20px 0;
+}
+.history-wrapper{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+.history-row{
+    display: flex;
+    box-shadow: 0px 4px 20px #d1cece;
+    background-color: #fcfcfc;
+}
+.history-year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #9ec19e;
+    border: 1px solid #575757;
+}
+.history-info{
+    padding: 15px;
+    border: 1px solid #575757;
+}
+.advantages__about{
+    background-color: #e6e7e6;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+.advantages-list--about{
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 20px;
+}
+.assortment{
+    padding: 30px 0;
+}
+.assortment--title{
+    padding-bottom: 20px;
+}
+.assortment-content{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.assortment-img{
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    object-fit: contain;
+}
+.assortment-text{
+    border: 1px solid #000;
+    border-radius: 12px;
+    padding: 15px;
+}
+.assortment-text a{
+    color: var(--background-color);
+    font-weight: 600;
+    background-image: linear-gradient(var(--background-color), var(--background-color));
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+    padding: 3px 0;
+}
+.assortment-text a:hover{
+    background-size:  100% 2px;
+}
+@media (max-width:500px){
+    .assortment-content{
+        flex-wrap: wrap;
+    }
+    .assortment-img{
+        width: 100%;
+    }
+    .history-row{
+        flex-wrap: wrap;
+        box-shadow: none;
+    }
+    .about-title{
+        text-align: center;
+        font-size: 25px;
+        padding: 0 0 15px 0;
+    }
+    .advantages__about{
+        margin-top: 0;
+        padding: 20px 0 0 0;
+    }
+    .advantages-list--about{
+        row-gap: 15px;
+    }
+    .assortment--title{
+        padding-bottom: 10px;
+    }
+}
+
+
+
