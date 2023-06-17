@@ -1,0 +1,32 @@
+.main-wrapper{
+    justify-content: flex-start;
+}
+.contacts-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.contacts{
+    padding: 40px 15px 0 15px;
+}
+.contacts i{
+    font-style: normal;
+    font-weight: 700;
+}
+.contacts p{
+    padding-top: 15px;
+}
+.mess-box{
+    padding: 20px 0;
+}
+.map{
+    max-width: 624px;
+    height: 350px;
+}
+@media (max-width:500px){
+    .map{
+        height: 300px;
+    }
+    .contacts{
+        padding: 0 15px;
+    }
+}

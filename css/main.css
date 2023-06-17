@@ -130,6 +130,15 @@ body{
     width: 240px;
     transition: 0.4s ease-in-out;
 }
+.number-btn{
+    text-align: center;
+}
+.number-btn span{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
 .call{
     display: flex;
     justify-content: start;
@@ -1170,6 +1179,8 @@ nav ul{
         display: flex;
         align-items: center;
         column-gap: 15px;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
     }
     .nav-mobile{
         display: flex;        
