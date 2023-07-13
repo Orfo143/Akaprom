@@ -1,0 +1,16 @@
+.blog-text{
+   max-width: 400px;
+   padding:0 15px;
+}
+.blog-title{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.blog-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom:15px;
+}

@@ -1,7 +1,3 @@
-.container--flex{
-  display: flex;
-  justify-content: space-between;
-}
 .column-box{
     display: flex;
     column-gap: 15px;
@@ -186,9 +182,16 @@
 }
 .full-description{
   padding: 40px 20px 20px;
+  overflow: hidden;
 }
 .full-description__text{
   padding: 20px 0;
+  max-width: 688px;
+}
+.text-video-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
  .open-popup{
